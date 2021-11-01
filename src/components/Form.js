@@ -11,6 +11,7 @@ const Form = () => {
         value
         onChange
       ></input>
+      <button type="submit">CREATE TASK</button>
     </form>
   );
 };
