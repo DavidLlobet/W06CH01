@@ -1,8 +1,9 @@
 const actionTypes = {
-  loadToDoTasks: "LOAD_TODOTASKS",
-  createToDoTasks: "CREATE_TODOTASKS",
-  deleteToDoTasks: "DELETE_TODOTASKS",
-  updateToDoTasks: "UPDATE_TODOTASKS",
+  loadTasks: "LOAD_TASKS",
+  createTask: "CREATE_TASK",
+  updateTask: "UPDATE_TASK",
+  deleteTask: "DELETE_TASK",
+  toggleTask: "TOGGLE_TASK",
 };
 
 export default actionTypes;
