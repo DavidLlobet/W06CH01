@@ -1,6 +1,4 @@
 const Form = () => {
-
-  
   const handlerSubmit = (event) => {
     event.preventDefault();
   };
@@ -12,14 +10,14 @@ const Form = () => {
       noValidate
       onSubmit={handlerSubmit}
     >
-      <label className="form__label" htmlFor></label>
+      <label className="form__label"></label>
       <input
         type="text"
         className="form-control"
         id="id"
         placeholder="id"
         value=""
-        onChange=
+        onChange={() => {}}
       ></input>
       <button type="submit">CREATE TASK</button>
     </form>
