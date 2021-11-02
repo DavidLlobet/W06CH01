@@ -4,7 +4,7 @@ const tasksReducer = (tasks = [], action) => {
   let newTasks;
 
   switch (action.type) {
-    case actionTypes.loadToDoTasks:
+    case actionTypes.loadTasks:
       newTasks = [...action.tasks];
       break;
     default:
