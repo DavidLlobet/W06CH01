@@ -1,3 +1,5 @@
+import "./Task.css";
+
 const Task = ({ taskData: { text, isChecked } }) => {
   return (
     <li className="todo__list">

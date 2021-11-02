@@ -1,3 +1,5 @@
+import "./Form.css";
+
 const Form = () => {
   const handlerSubmit = (event) => {
     event.preventDefault();
@@ -12,12 +14,14 @@ const Form = () => {
     >
       <input
         type="text"
-        className="form-control"
+        className="form__control"
         placeholder="Write the task here"
         onChange={() => {}}
         required
       ></input>
-      <button type="submit">CREATE TASK</button>
+      <button className="form__button" type="submit">
+        CREATE TASK
+      </button>
     </form>
   );
 };
