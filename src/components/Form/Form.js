@@ -10,14 +10,12 @@ const Form = () => {
       noValidate
       onSubmit={handlerSubmit}
     >
-      <label className="form__label"></label>
       <input
         type="text"
         className="form-control"
-        id="id"
-        placeholder="id"
-        value=""
+        placeholder="Write the task here"
         onChange={() => {}}
+        required
       ></input>
       <button type="submit">CREATE TASK</button>
     </form>
