@@ -1,3 +1,25 @@
+* {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: green;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #256;
+  width: 500px;
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
